@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "xlwk";
+    src: url("/assets/font/LXGWWenKai-Regular.ttf");
+}
+
+@font-face {
+    font-family: "xlwkMono";
+    src: url("/assets/font/LXGWWenKaiMono-Regular.ttf");
+}
+
+@font-face {
+    font-family: "xlwk";
+    src: url("/assets/font/LXGWWenKaiScreen.ttf");
+}
+
+@font-face {
+    font-family: "code";
+    src: url("/assets/font/SauceCodeProNerdFontPropo-Regular.ttf");
+}
+
+:root {
+    --monospace: "xlwkMono";
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: var(--monospace);
+    font-size: 1em;
+}
