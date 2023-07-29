@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
   Mathematics & Computer Science
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://cherrygs.github.io"
+url: https://cherrygs.github.io
 
 github:
   username: CherryGS # change to your github username
