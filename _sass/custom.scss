@@ -1,33 +1,28 @@
 @import url("https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-webfont/1.7.0/style.min.css");
 @import url("https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.min.css");
-
-@font-face {
-    font-family: "xlwk";
-    src: url("/assets/font/LXGWWenKai-Regular.ttf");
-}
-
-@font-face {
-    font-family: "xlwkMono";
-    src: url("/assets/font/LXGWWenKaiMono-Regular.ttf");
-}
-
-@font-face {
-    font-family: "xlwk";
-    src: url("/assets/font/LXGWWenKaiScreen.ttf");
-}
-
-@font-face {
-    font-family: "code";
-    src: url("/assets/font/SauceCodeProNerdFontPropo-Regular.ttf");
-}
+@import url("https://cdn.jsdelivr.net/npm/source-code-pro@2.38.0/source-code-pro.min.css");
 
 :root {
-    --monospace: "LXGW WenKai Mono", sans-serif;
+    --monospace: "Source Code Pro", "LXGW WenKai Mono", sans-serif;
 }
 
 @media (min-width: 1080px) {
     html {
         zoom: 120%;
+    }
+
+    :root {
+        --text-font: "LXGW WenKai";
+    }
+}
+
+@media (max-width: 1000px) {
+    html {
+        zoom: 100%;
+    }
+
+    :root {
+        --text-font: "LXGW WenKai";
     }
 }
 
