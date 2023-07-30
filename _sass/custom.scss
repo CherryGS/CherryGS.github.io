@@ -1,3 +1,6 @@
+@import url("https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-webfont/1.7.0/style.min.css");
+@import url("https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.min.css");
+
 @font-face {
     font-family: "xlwk";
     src: url("/assets/font/LXGWWenKai-Regular.ttf");
@@ -19,7 +22,13 @@
 }
 
 :root {
-    --monospace: "xlwkMono";
+    --monospace: "LXGW WenKai Mono", sans-serif;
+}
+
+@media (min-width: 1080px) {
+    html {
+        zoom: 120%;
+    }
 }
 
 code,
