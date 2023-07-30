@@ -6,6 +6,14 @@
     --monospace: "Source Code Pro", "LXGW WenKai Mono", sans-serif;
 }
 
+code,
+kbd,
+pre,
+samp {
+    font-family: var(--monospace);
+    font-size: 1em;
+}
+
 @media (min-width: 1080px) {
     html {
         zoom: 120%;
@@ -24,12 +32,4 @@
     :root {
         --text-font: "LXGW WenKai";
     }
-}
-
-code,
-kbd,
-pre,
-samp {
-    font-family: var(--monospace);
-    font-size: 1em;
 }
