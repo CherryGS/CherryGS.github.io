@@ -9,6 +9,7 @@ categories:
   - competitive programming
   - codeforces
 published: true
+math: true
 ---
 
 
