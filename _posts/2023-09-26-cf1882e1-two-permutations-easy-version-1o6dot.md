@@ -4,17 +4,12 @@ title: cf1882e1 - Two Permutations (Easy Version)
 date: '2023-09-26 22:26:23'
 permalink: /post/cf1882e1-two-permutations-easy-version-1o6dot.html
 tags:
-  - Inverse Pairs
+  - 逆序对
 categories:
   - competitive programming
   - codeforces
 published: true
-math: true
 ---
-
-
-
-
 
 # [cf1882e1 - Two Permutations (Easy Version)](https://codeforces.com/contest/1882/problem/E1)
 
